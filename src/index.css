@@ -2,6 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+.box{
+  background:url("./images/bg-pattern.svg") center no-repeat;
+  background-size: cover;
+}
+
+.head{
+  background: url("./images/pattern-circles.svg") center no-repeat;
+}
+
+.darkBg{
+  background-color: "#171717";
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
